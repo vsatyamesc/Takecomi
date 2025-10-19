@@ -5,3 +5,9 @@
 - Open the browser console.
 - Copy-Paste the script.js
 - Scroll from top to Bottom. It'll download the images visible on screen.
+
+## Problems?
+- Use FireFox Browser.
+- FireFox Developer Edition If there's still problem.
+- CORS Issue? Install Cors Unblock Extension.
+- More? Create an Issue.

@@ -53,7 +53,8 @@
 
           if (canvas) {
             const divIndex = Array.from(allPages).indexOf(targetDiv);
-            const filename = `image - ${divIndex}.png`;
+            const paddedDivIndex = String(divIndex).padStart(3, "0");
+            const filename = `image-${paddedDivIndex}.png`;
             downloadCanvas(canvas, filename);
           } else {
             console.warn(
